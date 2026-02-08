@@ -63,14 +63,8 @@ html, body {
 }
 
 
-body::after {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background-image:
-    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 240, 255, 0.015) 2px, rgba(0, 240, 255, 0.015) 4px);
-  z-index: -1;
-  pointer-events: none;
+.sponsor-bar::before {
+  display: none;
 }
 
 /* ═══════════════════════════════════════════
